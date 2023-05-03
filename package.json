@@ -12,19 +12,20 @@
     "jasmine",
     "e2e",
     "selenium",
-    "test"
+    "test",
+    "FashionNova",
+    "object oriented"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/webdriverio/jasmine-boilerplate.git"
+    "url": "git+https://github.com/PeteVarley/FashionNovaBrowserAutomation.git"
   },
   "bugs": {
     "url": "https://github.com/webdriverio/jasmine-boilerplate/issues"
   },
   "scripts": {
-    "test": "wdio run wdio.sauce.conf.ts",
-    "test:local": "wdio run wdio.local.conf.ts",
-    "test:sauce": "wdio run wdio.sauce.conf.ts"
+    "test": "wdio run wdio.local.conf.ts",
+    "test:local": "wdio run wdio.local.conf.ts"
   },
   "devDependencies": {
     "@types/jasmine": "^4.3.1",

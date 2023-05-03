@@ -44,7 +44,7 @@ export const config: Omit<WebdriverIO.Config, 'capabilities'> = {
     // and 30 processes will get spawned. The property handles how many capabilities
     // from the same test should run tests.
     //
-    maxInstances: 10,
+    maxInstances: 1,
     //
     // ===================
     // Test Configurations
@@ -77,7 +77,7 @@ export const config: Omit<WebdriverIO.Config, 'capabilities'> = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'http://the-internet.herokuapp.com',
+    baseUrl: 'https://www.fashionnova.com/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
