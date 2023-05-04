@@ -8,7 +8,7 @@ class DropdownMenu extends Page {
     // Below are fields build using the Webdriver.io version of Link Text
     // let driver = await new Builder().forBrowser('chrome').build();
 	// const loc = await driver.findElement(By.linkText('New In'));
-
+    
     get newIn () { return $('=New In') }
 
     get novaDeals () { return $('=Nova Deals') }
